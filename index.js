@@ -9,6 +9,7 @@ dotenv.config();
 import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
 import helmet from 'helmet';
+import userRouter from './route/user.route.js';
 
 
 const app = express ();
@@ -32,8 +33,10 @@ app.get('/', (req, res) => {
     });
 });
 
-connectDB();
+app.use("/api/user", userRouter);
 
-app.listen(PORT, () => {
-    console.log(`NOSSO SERVIDOR RODANDO NA PORTA ${PORT}`);
+connectDB().then(() => {
+    app.listen(PORT, () => {
+        console.log(`NOSSO SERVIDOR RODANDO NA PORTA ${PORT}`);
+   }); 
 });
