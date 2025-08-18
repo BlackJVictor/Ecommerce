@@ -37,12 +37,19 @@ Crie um arquivo chamado .env na raiz da pasta server e adicione as seguintes var
 
 FRONTEND_URL = "http://localhost:8080/3000"
 MONGODB_URI = 
+
 RESEND_API = 
+
 SECRET_KEY_ACCESS_TOKEN = 
+
 SECRET_KEY_REFRESH_TOKEN = 
+
 CLOUDINARY_CLOUD_NAME = 
+
 CLOUDINARY_API_KEY = 
+
 CLOUDINARY_API_SECRET_KEY = 
+
 
 Observação: Insere com suas próprias informações. Mantenha este arquivo em segredo e nunca o envie para o GitHub.
 
