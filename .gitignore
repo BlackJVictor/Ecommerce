@@ -1,0 +1,5 @@
+# Ignora arquivos na pasta server
+server/.env
+server/node_modules/
+server/package-lock.json
+node_modules/
