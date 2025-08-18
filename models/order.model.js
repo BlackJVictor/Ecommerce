@@ -23,7 +23,7 @@ const orderSchema = new mongoose.Schema({
         default : ""
     },
     payment_status : {
-        typo : String,
+        type : String,
         default : ""
     },
     delivery_address : {
