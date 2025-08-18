@@ -36,6 +36,7 @@ Este projeto usa variáveis de ambiente para gerenciar informações sensíveis,
 Crie um arquivo chamado .env na raiz da pasta server e adicione as seguintes variáveis:
 
 FRONTEND_URL = "http://localhost:8080/3000"
+
 MONGODB_URI = 
 
 RESEND_API = 
